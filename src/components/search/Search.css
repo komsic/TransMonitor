@@ -1,0 +1,26 @@
+.search {
+  position: relative;
+  margin-right: auto;
+}
+.search > img {
+  height: 0.75rem;
+  width: 0.75rem;
+  position: absolute;
+  top: .5rem;
+  left: 0.5rem;
+}
+.search > input {
+  border: 0;
+  font-size: 0.75rem;
+  padding: .5rem 0.5rem;
+  padding-left: 2rem;
+}
+.bottom-border > input {
+  border-bottom: 0.03125rem solid #787878;
+  font-size: 0.625rem;
+  padding-left: 1.0875rem;
+}
+.bottom-border > img {
+  height: 0.625rem;
+  width: 0.625rem;
+}
