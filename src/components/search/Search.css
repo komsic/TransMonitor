@@ -1,6 +1,5 @@
 .search {
   position: relative;
-  margin-right: auto;
 }
 .search > img {
   height: 0.75rem;
@@ -14,6 +13,7 @@
   font-size: 0.75rem;
   padding: .5rem 0.5rem;
   padding-left: 2rem;
+  background-color: transparent;
 }
 .bottom-border > input {
   border-bottom: 0.03125rem solid #787878;
@@ -23,4 +23,5 @@
 .bottom-border > img {
   height: 0.625rem;
   width: 0.625rem;
+  left: 0;
 }
