@@ -1,0 +1,63 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+  font-size: .75rem;
+}
+.click .dropdown__menu {
+  display: block;
+}
+.dropdown__head {
+  display: flex;
+  align-self: center;
+}
+.dropdown__head > input {
+  padding: .5rem 1rem;
+  border: 1px solid #CED0DA;
+  border-radius: 2px;
+  background-color: transparent;
+  width: 9.375rem;
+  color: #414042;
+}
+.chart > input {
+  border-radius: 4.25px;
+  border: 1px solid #dde0e3;
+  width: 8.625rem;
+  color: #7f8fa4;
+}
+.number > input {
+  border-radius: 0;
+  border: none;
+  width: 2.625rem;
+  color: #1875f0;
+  padding: .5rem;
+}
+.dropdown__head > img {
+  position: absolute;
+  right: 1rem;
+  top: 45%;
+}
+.number > img {
+  right: .5rem;
+}
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 1.9rem;
+  min-width: 100%;
+  background-color: #fff;
+  box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 .375px .375px;
+}
+.dropdown__menu > div {
+  padding: 0.5rem 1rem;
+}
+.number > div {
+  padding: 0.5rem;
+}
+.dropdown__menu > div:last-of-type {
+  border-radius: 0 0 6px 6px;
+}
+.dropdown__menu > div:hover {
+  background-color: #f4f4f4;
+}
