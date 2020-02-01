@@ -1,0 +1,30 @@
+.app > .second {
+  display: flex;
+}
+
+.app > .second > .side-menu,
+.app > .footer > .propo {
+  width: 18.056%;
+}
+.app > .second > .main,
+.app > .footer > .table-footer {
+  flex: 1;
+}
+
+.app > .footer {
+  display: flex;
+  align-items: stretch;
+}
+.app > .footer > .propo {
+  border-top: 0.5px solid #647787;
+  opacity: .4;
+}
+.app > .footer > .table-footer {
+  font-size: .8125rem;
+  color: #000;
+  background-color: #f7f8fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.625rem 3.559% 4.125rem 3.559%;
+}
