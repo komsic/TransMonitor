@@ -1,0 +1,19 @@
+.summary, .summary > h5 {
+  font-size: .875rem;
+  color: #262626;
+}
+.summary > * + * {
+  margin-top: 0.625rem;
+}
+.summary > p > span {
+  margin-left: .25rem;
+}
+.summary > p:first-of-type > span {
+  color: #fdc203;
+}
+.summary > p:nth-of-type(2) > span {
+  color: #27ae60;
+}
+.summary > p:nth-of-type(3) > span {
+  color: #1875f0;
+}
