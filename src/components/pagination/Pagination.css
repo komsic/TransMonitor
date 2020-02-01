@@ -1,0 +1,21 @@
+.pagination > button {
+  font-size: .8125rem;
+  padding: .375rem .625rem;
+  background-color: transparent;
+  border: 1px solid #ced0da;
+  border-right: none;
+  color: #979797;
+}
+.pagination > button:hover {
+  background-color: #f0f0f0;
+}
+button.not-number {
+  color: #000;
+}
+button.not-number:last-of-type {
+  border-right: 1px solid #ced0da;
+}
+button.active,  button.active:hover {
+  color: #fff;
+  background-color: #1875f0;
+}
