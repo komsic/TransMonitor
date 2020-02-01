@@ -1,0 +1,11 @@
+.progress-outer {
+  background-color: #fdc203;
+  border-radius: .25rem;
+}
+
+.progress-inner {
+  background-color: #27ae60;
+  height: .25rem;
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+}
